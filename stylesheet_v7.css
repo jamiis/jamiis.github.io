@@ -90,6 +90,33 @@ body {
 				}
 			}
 
+	/* Honors */
+	/* NOTE: dear future self, this is simply a copy paste from 
+             education-container above with margin-left changed
+             I am rushing. these blocks should inherit from a 
+             higher definition */
+
+		.honors-container {
+			margin-left: 55%;
+			margin-top: 96px;
+		}
+
+		/* Mobile */
+			@media only screen and (max-width: 900px) {
+				.honors-container {
+					margin: 48px 24px;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+			}
+
+			@media only screen and (max-width: 600px) {
+				.honors-container {
+					display: block;
+				}
+			}
+
 	/* Work */
 
 		.work-container {
