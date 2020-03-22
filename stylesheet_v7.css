@@ -101,6 +101,10 @@ body {
 			margin-top: 96px;
 		}
 
+        a.first {
+            margin-right: 25px;
+        }
+
 		/* Mobile */
 			@media only screen and (max-width: 900px) {
 				.honors-container {
@@ -136,8 +140,14 @@ body {
 			margin-bottom: 72px;
 		}
 
+		.work-item-last {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
 		.work-identifiers {
 			margin-right: 64px;
+            width: 275px;
 		}
 
 		/* Mobile */
@@ -283,7 +293,7 @@ body {
 		}
 
 			a.navigation {
-				margin-right: 36px;
+                margin-right: 36px;
 			}
 
 		a:link::after, a:visited::after {
@@ -291,7 +301,7 @@ body {
 		    content: '';
 		    border-bottom: 3px solid; 
 		    height: 6px; 
-		    transform: scaleX(0.3);
+		    transform: scaleX(0.0);
 		    transition: transform 250ms ease-in-out;
 		    transform-origin: 0% 50%;
 		}
